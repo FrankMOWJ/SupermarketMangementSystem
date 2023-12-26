@@ -1,0 +1,70 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Calendar,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Select,
+  Option,
+  DatePicker,
+  Divider,
+  Table,
+  TableColumn,
+  Popover,
+  Tag,
+  Pagination,
+  Steps,
+  Step,
+  Dialog,
+  Radio,
+  Switch,
+  Message
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Calendar)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(DatePicker)
+Vue.use(Divider)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Popover)
+Vue.use(Tag)
+Vue.use(Pagination)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Dialog)
+Vue.use(Radio)
+Vue.use(Switch)
+Vue.prototype.$message = Message
